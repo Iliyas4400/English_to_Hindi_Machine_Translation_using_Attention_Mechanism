@@ -7,9 +7,9 @@ Text data is downloaded from(https://www.kaggle.com/aiswaryaramachandran/english
 Both the texts are processed using regex to remove unwanted words. sentences with suitable maximum length are selected.
 
 ### Model ###
-Encoder Decoder Architecture with Attention Mechanism model is used.
+Encoder Decoder Architecture with Attention Mechanism.
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tensorflow.org%2Ftext%2Ftutorials%2Fnmt_with_attention&psig=AOvVaw2nSW8i0DFqaK1EFfxdulTj&ust=1632892680210000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCPiMkMX1oPMCFQAAAAAdAAAAABAD)
+![alt text](https://i.stack.imgur.com/tfq1N.jpg)
  
 English text tokens are passed to Encoder Embedding layers. Final hidden states of  unit are passed in as initial states to Decoder LSTM units to generate Hindi text tokens. 
 Teacher forcing method is used to train the model. 
