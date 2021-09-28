@@ -9,7 +9,7 @@ Both the texts are processed using regex to remove unwanted words. sentences wit
 ### Model ###
 Encoder Decoder Architecture with Attention Mechanism.
 
-![alt text](https://i.stack.imgur.com/tfq1N.jpg)
+![alt text](http://www.aican.hu/wp-content/uploads/2018/08/bahdanau.png)
  
 English text tokens are passed to Encoder Embedding layers. Final hidden states of  unit are passed in as initial states to Decoder LSTM units to generate Hindi text tokens. 
 Teacher forcing method is used to train the model. 
