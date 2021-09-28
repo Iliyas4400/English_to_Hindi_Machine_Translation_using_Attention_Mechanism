@@ -14,7 +14,7 @@ Encoder Decoder Architecture with Additive(Bahdanau) Attention Mechanism.
 
 ![alt text](http://www.aican.hu/wp-content/uploads/2018/08/bahdanau.png)
  
-English text tokens are passed to Encoder Embedding layers and then to GRU layers to get Hidden states for each token from input text .Attention weights are calculated using previous Hidden state of Decoder and all Hidden states of Encoder. Weights are passed through softMax layer and the obtained values are multiplied with Hidden states of Encoder and summed to get the final Context vector. This context vector along with Decoder input token are passed in as input to Decoder. This process of calculating Attention weights is continued for all GRU layers of Decoder.
+English text tokens are passed to Encoder Embedding layers and then to GRU layers to get Hidden states for each token from input text .Attention weights are calculated using previous Hidden state of Decoder and all the Hidden states of Encoder. Weights are passed through softMax layer and the obtained values are multiplied with Hidden states of Encoder and summed to get the final Context vector. This context vector along with Embedded Decoder input token are passed in as input to Decoder. This process of calculating Attention weights is continued for all GRU layers of Decoder.
 Teacher forcing method is used to train the model. 
 
 ### Evaluation ###
