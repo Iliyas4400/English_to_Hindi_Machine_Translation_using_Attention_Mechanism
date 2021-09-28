@@ -1,0 +1,2 @@
+# English_to_Hindi_Machine_Translation_using_Attention_Mechanism
+Encoder Decoder architecture with Attention Mechanism to translate sentences from English to Hindi
