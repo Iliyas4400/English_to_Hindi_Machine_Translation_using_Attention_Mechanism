@@ -19,4 +19,4 @@ Teacher forcing method is used to train the model.
 
 ### Evaluation ###
 BLEU(Bilingual Evaluation Understudy) score is used as Evaluation metric
-0.4848 BLEU score is obtained on Train and CV dataset and 0.4329 on Test set.
+0.4848 BLEU score is obtained on Train set and 0.4329 on Test set.
