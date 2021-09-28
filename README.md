@@ -3,6 +3,9 @@ Encoder Decoder architecture with Attention Mechanism to translate sentences fro
 ### Data set
 Text data is downloaded from(https://www.kaggle.com/aiswaryaramachandran/english-to-hindi-neural-machine-translation?select=Hindi_English_Truncated_Corpus.csv)
 
+### Libraries used ###
+Tensor Flow, Keras, NLTK, Regex, Sklearn, Matplotlib, Numpy and Pandas.
+
 ### Text preprocessing
 Both the texts are processed using regex to remove unwanted words. sentences with suitable maximum length are selected.
 
